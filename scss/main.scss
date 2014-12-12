@@ -1,0 +1,17 @@
+html {
+  padding: 0;
+}
+
+body {
+  color: #333;
+  background-color: #999;
+}
+
+@mixin input-size($parent) {
+  textarea#{$parent},
+  select[multiple]#{$parent} {
+    height: auto;
+  }
+}
+
+@include input-size('.input-sm');

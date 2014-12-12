@@ -1,0 +1,11 @@
+html {
+  padding: 0; }
+
+body {
+  color: #333;
+  background-color: #999; }
+
+textarea.input-sm, select[multiple].input-sm {
+  height: auto; }
+
+/*# sourceMappingURL=post_3.0.1.css.map */
